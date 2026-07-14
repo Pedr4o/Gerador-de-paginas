@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Inter", sans-serif;
+}
+
+
+body {
+  background: black;
+  color: #fafafa;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  /* um debaixo do outro */
+  align-items: center;
+  /* alinhar ao centro */
+
+}
+
+
+.etiqueta {
+  color: #ffffff;
+
+
+}
+
+h1 {
+  font-size: 50px;
+  /* Tamanho do texto */
+  font-weight: 800;
+  /* grossura da fonte*/
+  color: #fafafa;
+
+}
+
+span {
+  color: #a78bfa;
+  padding: 30px;
+
+}
+
+.subtitulo {
+  color: #b2b2b6;
+  margin-top: 16px;
+  font-size: 16px;
+
+}
+
+
+.caixa-entrada {
+  width: 620px;
+  display: flex;
+  margin-top: 30px;
+  padding: 12px;
+  background: #212127;
+  border-radius: 20px;
+}
+
+textarea {
+  width: 80%;
+  /* largura */
+  resize: none;
+  /* redimensionar  */
+  outline: none;
+  background: transparent;
+  padding: 8px;
+  color: whitesmoke;
+  font-size: 15px;
+  border: none;
+
+
+}
+
+button {
+  background: #7c3aed;
+  border: none;
+  /* borda */
+  border-radius: 10px;
+  /* arredondar a bordar */
+  cursor: pointer;
+  /* trocar o cursor do mouse */
+  font-weight: 600;
+  width: 20%;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-size: 17px;
+}
+
+
+.caixa-resultado {
+  background: #111114;
+  border-radius: 12px;
+  border: 1px solid #27272a;
+  gap: 24px;
+  display: flex;
+  width: 1400px;
+  padding: 24px;
+  margin-top: 40px;
+  
+}
+
+.bloco-codigo {
+  background: #0c0c0f;
+  width: 30%;
+  padding: 20px;
+  font-size: 12px;
+  color: green;
+  white-space: pre-wrap;  /* quebrar linha */
+  overflow: auto;   /* scroll do mouse */
+  height: 600px;
+  border-radius: 12px;
+  border: 1px solid #27272a;
+}
+
+.bloco-site {
+  width: 70%;
+  height: 600px;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  background-color: rgb(61, 60, 60);
+  color: white;
+  
+}
